@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vacation Vibes — Explore. Experience. Enjoy.</title>
+<meta name="description" content="Vacation Vibes — luxurious hotel stays, guided tours, camping, boating and photography across the breathtaking valleys of Gilgit-Baltistan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,600&family=Jost:wght@300;400;500;600;700&family=Parisienne&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="assets/img/logo.png">
+<link rel="shortcut icon" type="image/png" href="assets/img/logo.png">
+<link rel="apple-touch-icon" href="assets/img/logo.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ================= TOPBAR ================= -->
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <a href="tel:+923397866881">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span>+92 339 7866881</span>
+      </a>
+      <a href="mailto:vacationvibes.ks@gmail.com" class="hide-sm">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v16H4z" stroke="none"/><path d="M22 6l-10 7L2 6"/><path d="M2 6h20v12H2z"/></svg>
+        <span>vacationvibes.ks@gmail.com</span>
+      </a>
+    </div>
+    <div class="topbar-right">
+      <span>Skardu, Gilgit-Baltistan</span>
+    </div>
+  </div>
+</div>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#top" class="brand">
+      <img src="assets/img/logo.png" alt="Vacation Vibes logo">
+    </a>
+    <nav class="main-nav">
+      <a href="#about">About</a>
+      <a href="#destinations">Destinations</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#guide">Our Team</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-gold" href="https://wa.me/923397866881" target="_blank" rel="noopener">Plan My Trip</a>
+      <button class="burger" id="burgerBtn" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= MOBILE NAV ================= -->
+<div class="mobile-nav" id="mobileNav">
+  <div class="mnav-top">
+    <img src="assets/img/logo.png" alt="Vacation Vibes logo">
+    <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close menu">&times;</button>
+  </div>
+  <a href="#about">About</a>
+  <a href="#destinations">Destinations</a>
+  <a href="#services">Services</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#guide">Our Team</a>
+  <a href="#contact">Contact</a>
+  <a class="btn btn-gold mnav-cta" href="https://wa.me/923397866881" target="_blank" rel="noopener">Plan My Trip</a>
+</div>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="container hero-content">
+    <div class="hero-script">Explore. Experience. Enjoy.</div>
+    <h1>Travel Beyond Limits in <em>Gilgit-Baltistan</em></h1>
+    <p class="lead">At Vacation Vibes, we turn your travel dreams into unforgettable adventures — luxurious stays, comfortable travel arrangements and expert local guidance through the breathtaking valleys of the north.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-gold" href="https://wa.me/923397866881" target="_blank" rel="noopener">Start Planning</a>
+      <a class="btn btn-outline" href="#destinations">Explore Destinations</a>
+    </div>
+    <div class="hero-badges">
+      <div class="hero-badge"><span class="num">05+</span><span class="lbl">Signature Valleys Covered</span></div>
+      <div class="hero-badge"><span class="num">24/7</span><span class="lbl">Local Support On the Ground</span></div>
+      <div class="hero-badge"><span class="num">100%</span><span class="lbl">Personalized Itineraries</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PLAN BAR ================= -->
+<div class="container plan-bar">
+  <div class="plan-card reveal">
+    <div class="plan-field">
+      <label>Destination</label>
+      <select>
+        <option>Skardu</option>
+        <option>Hunza Valley</option>
+        <option>Naran Valley</option>
+        <option>Deosai Plains</option>
+        <option>Fairy Meadows</option>
+      </select>
+    </div>
+    <div class="plan-field">
+      <label>Experience</label>
+      <select>
+        <option>Hotel Stay</option>
+        <option>Guided Tour</option>
+        <option>Camping</option>
+        <option>Boating &amp; Fishing</option>
+        <option>Photography</option>
+      </select>
+    </div>
+    <div class="plan-field">
+      <label>Travellers</label>
+      <select>
+        <option>1&ndash;2 Guests</option>
+        <option>3&ndash;5 Guests</option>
+        <option>6&ndash;10 Guests</option>
+        <option>Group / Family</option>
+      </select>
+    </div>
+    <div class="plan-submit">
+      <a class="btn btn-gold" href="https://wa.me/923397866881" target="_blank" rel="noopener">Enquire Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+  <div class="container about-grid">
+    <div class="about-media reveal">
+      <div class="img-back"></div>
+      <img src="assets/img/about-kachura.jpg" data-fallback="https://commons.wikimedia.org/wiki/Special:FilePath/After_Sunset_View_of_Upper_Kachura_Lake_Skardu_with_boat.jpg?width=1200" onerror="this.onerror=null;this.src=this.dataset.fallback" loading="lazy" decoding="async" alt="Traditional boat on a turquoise lake in Gilgit-Baltistan">
+      <div class="img-tag">
+        <div class="num">7+</div>
+        <div class="lbl">Years of Local Hospitality</div>
+      </div>
+    </div>
+    <div class="about-body reveal">
+      <div class="eyebrow">Who We Are</div>
+      <h2 class="section-title">Your travel dreams, turned into unforgettable adventures.</h2>
+      <p>From luxurious hotel stays and comfortable travel arrangements to expert local tour guidance, we provide everything you need for a perfect escape in the breathtaking valleys of Gilgit-Baltistan.</p>
+      <p>Whether you're seeking adventure, relaxation, or unforgettable memories, we deliver safe, reliable and personalized experiences filled with hospitality, comfort and local charm.</p>
+      <div class="founder-line">
+        "We don't just plan trips — we craft the real beauty of Gilgit-Baltistan into every journey."
+        <span>Syed Mubashir Kazmi — Founder, Vacation Vibes</span>
+      </div>
+
+      <div class="feature-list">
+        <div class="feature-item">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 21l4-13 4 13M3 21l6-11M21 21l-6-11M12 3l2 5-2 2-2-2z"/></svg></div>
+          <div><h4>Majestic Mountains</h4><p>Guided treks through the Karakoram's finest ridgelines.</p></div>
+        </div>
+        <div class="feature-item">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 12h20M4 12a8 6 0 0016 0M12 3v4M9 5l3-2 3 2"/></svg></div>
+          <div><h4>Boating &amp; Fishing</h4><p>Crystal-clear lakes for a calm, scenic day out.</p></div>
+        </div>
+        <div class="feature-item">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M19 20L12 4 5 20M9 16h6"/></svg></div>
+          <div><h4>Peaceful Camping</h4><p>Nights under the clearest stars in the north.</p></div>
+        </div>
+        <div class="feature-item">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="13" r="4"/><path d="M5 8h2l1.5-2h7L17 8h2a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2v-9a2 2 0 012-2z"/></svg></div>
+          <div><h4>Professional Photography</h4><p>Every magical moment, captured and kept.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<svg class="ridge ridge-ivory" viewBox="0 0 1200 64" preserveAspectRatio="none"><path d="M0 55 L120 20 L220 48 L340 8 L460 42 L600 15 L740 45 L860 18 L1000 40 L1090 22 L1200 50" /></svg>
+
+<!-- ================= DESTINATIONS ================= -->
+<section class="destinations" id="destinations">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Where to Go</div>
+        <h2 class="section-title">Signature valleys of the north.</h2>
+      </div>
+      <p class="section-sub">Five iconic regions, each with its own light, altitude and story — pick where your journey begins.</p>
+    </div>
+    <div class="dest-grid">
+      <div class="dest-card reveal">
+        <img src="assets/img/dest-skardu.jpg" data-fallback="https://commons.wikimedia.org/wiki/Special:FilePath/Upper_Kachura_Lake%2C_Skardu_Gilgit_Baltistan_Pakistan.jpg?width=900" onerror="this.onerror=null;this.src=this.dataset.fallback" loading="lazy" decoding="async" alt="Skardu valley">
+        <div class="dest-info"><div class="name">Skardu</div><div class="count">Gateway to the Giants</div></div>
+      </div>
+      <div class="dest-card reveal">
+        <img src="assets/img/dest-hunza.jpg" data-fallback="https://commons.wikimedia.org/wiki/Special:FilePath/Hunza_Valley_from_Duikar_%2815974862443%29.jpg?width=900" onerror="this.onerror=null;this.src=this.dataset.fallback" loading="lazy" decoding="async" alt="Hunza Valley">
+        <div class="dest-info"><div class="name">Hunza Valley</div><div class="count">Orchards &amp; Old Forts</div></div>
+      </div>
+      <div class="dest-card reveal">
+        <img src="assets/img/dest-naran.jpg" data-fallback="https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Saiful_Muluk_%28Naran_Valley%29.JPG?width=900" onerror="this.onerror=null;this.src=this.dataset.fallback" loading="lazy" decoding="async" alt="Naran Valley">
+        <div class="dest-info"><div class="name">Naran Valley</div><div class="count">Alpine Lakes &amp; Meadows</div></div>
+      </div>
+      <div class="dest-card reveal">
+        <img src="assets/img/dest-deosai.jpg" data-fallback="https://commons.wikimedia.org/wiki/Special:FilePath/The_Land_of_Giants%2C_Deosai.jpg?width=900" onerror="this.onerror=null;this.src=this.dataset.fallback" loading="lazy" decoding="async" alt="Deosai Plains">
+        <div class="dest-info"><div class="name">Deosai Plains</div><div class="count">Land of Giants</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">What We Offer</div>
+        <h2 class="section-title">Everything for a perfect escape.</h2>
+      </div>
+      <p class="section-sub">One trusted partner for stays, travel, guidance and every experience in between.</p>
+    </div>
+    <div class="svc-grid">
+      <div class="svc-card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 21V8l9-5 9 5v13M9 21v-6h6v6"/></svg></div>
+        <h3>Luxury Hotel Stays</h3>
+        <p>Handpicked hotels, resorts and homestays across every valley we serve.</p>
+        <a class="link-arrow" href="https://wa.me/923397866881" target="_blank" rel="noopener">Enquire →</a>
+      </div>
+      <div class="svc-card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="7" width="15" height="11" rx="2"/><path d="M18 10l3 2v4l-3 2"/></svg></div>
+        <h3>Travel Arrangements</h3>
+        <p>Comfortable jeeps, cars and transfers with trusted local drivers.</p>
+        <a class="link-arrow" href="https://wa.me/923397866881" target="_blank" rel="noopener">Enquire →</a>
+      </div>
+      <div class="svc-card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-5.5-7-11a7 7 0 0114 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+        <h3>Expert Tour Guidance</h3>
+        <p>Local guides who know every trail, viewpoint and story worth telling.</p>
+        <a class="link-arrow" href="https://wa.me/923397866881" target="_blank" rel="noopener">Enquire →</a>
+      </div>
+      <div class="svc-card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M19 20L12 4 5 20M9 16h6"/></svg></div>
+        <h3>Camping Under the Stars</h3>
+        <p>Fully equipped campsites in the most peaceful corners of the north.</p>
+        <a class="link-arrow" href="https://wa.me/923397866881" target="_blank" rel="noopener">Enquire →</a>
+      </div>
+      <div class="svc-card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 12h20M4 12a8 6 0 0016 0M12 3v4M9 5l3-2 3 2"/></svg></div>
+        <h3>Boating &amp; Fishing</h3>
+        <p>Calm mornings on crystal-clear lakes, rod and boat included.</p>
+        <a class="link-arrow" href="https://wa.me/923397866881" target="_blank" rel="noopener">Enquire →</a>
+      </div>
+      <div class="svc-card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="13" r="4"/><path d="M5 8h2l1.5-2h7L17 8h2a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2v-9a2 2 0 012-2z"/></svg></div>
+        <h3>Professional Photography</h3>
+        <p>Cinematic shoots and portraits set against the north's finest backdrops.</p>
+        <a class="link-arrow" href="https://wa.me/923397866881" target="_blank" rel="noopener">Enquire →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GALLERY ================= -->
+<section class="gallery" id="gallery">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Moments</div>
+        <h2 class="section-title">Captured across the valleys.</h2>
+      </div>
+      <p class="section-sub">A glimpse of the landscapes, journeys and faces that make every trip unforgettable.</p>
+    </div>
+    <div class="gal-grid">
+      <div class="gal-item tall reveal"><img src="assets/img/gal-hunza.jpg" data-fallback="https://commons.wikimedia.org/wiki/Special:FilePath/Hunza_Valley%27s_ountains.jpg?width=800" onerror="this.onerror=null;this.src=this.dataset.fallback" loading="lazy" decoding="async" alt="Mountain valley"><span class="cap">Hunza, Golden Hour</span></div>
+      <div class="gal-item reveal"><img src="assets/img/gal-skardu.jpg" data-fallback="https://commons.wikimedia.org/wiki/Special:FilePath/Lower_kachura_Lake.jpg?width=800" onerror="this.onerror=null;this.src=this.dataset.fallback" loading="lazy" decoding="async" alt="Lake and mountains"><span class="cap">Skardu Lakeside</span></div>
+      <div class="gal-item reveal"><img src="assets/img/gal-deosai.jpg" data-fallback="https://commons.wikimedia.org/wiki/Special:FilePath/Deosai_Plains_-_Bara_Pani.jpg?width=800" onerror="this.onerror=null;this.src=this.dataset.fallback" loading="lazy" decoding="async" alt="Alpine plains"><span class="cap">Deosai Plains</span></div>
+      <div class="gal-item tall reveal"><img src="assets/img/gal-naran.jpg" data-fallback="https://commons.wikimedia.org/wiki/Special:FilePath/Jheel_Saif_Ul_Malook-Naran_Valley.jpg?width=800" onerror="this.onerror=null;this.src=this.dataset.fallback" loading="lazy" decoding="async" alt="Alpine lake"><span class="cap">Naran, Morning Mist</span></div>
+      <div class="gal-item reveal"><img src="assets/img/gal-camp.jpg" data-fallback="https://commons.wikimedia.org/wiki/Special:FilePath/A_night_at_Deosai_National_Park.jpg?width=800" onerror="this.onerror=null;this.src=this.dataset.fallback" loading="lazy" decoding="async" alt="Camp under stars"><span class="cap">Nights Under the Stars</span></div>
+      <div class="gal-item reveal"><img src="assets/img/gal-fairy.jpg" data-fallback="https://commons.wikimedia.org/wiki/Special:FilePath/Fairy_Meadow_Jeep_Track_Gilgit_Baltistan.jpg?width=800" onerror="this.onerror=null;this.src=this.dataset.fallback" loading="lazy" decoding="async" alt="Jeep on mountain road"><span class="cap">On the Road</span></div>
+    </div>
+  </div>
+</section>
+
+<svg class="ridge ridge-dark" viewBox="0 0 1200 64" preserveAspectRatio="none" style="background:var(--ivory-dim);"><path d="M0 20 L110 46 L230 12 L360 44 L480 18 L610 48 L740 15 L870 42 L990 20 L1200 40" /></svg>
+
+<!-- ================= GUIDE / FOUNDER ================= -->
+<section class="guide" id="guide">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Meet Your Host</div>
+        <h2 class="section-title">The face behind every journey.</h2>
+      </div>
+    </div>
+    <div class="guide-wrap reveal">
+      <div class="guide-photo">
+        <img src="assets/img/founder.jpg" loading="lazy" decoding="async" alt="Syed Mubashir Kazmi, founder of Vacation Vibes">
+      </div>
+      <div class="guide-body">
+        <div class="role">Founder &amp; Lead Guide</div>
+        <h3>Syed Mubashir Kazmi</h3>
+        <p>With deep roots in Gilgit-Baltistan and years of hands-on experience across its valleys, Syed Mubashir Kazmi built Vacation Vibes to share the region the way only a local can — safely, personally and with real hospitality at every stop.</p>
+        <div class="guide-contact">
+          <a href="tel:+923397866881">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            +92 339 7866881
+          </a>
+          <a href="mailto:vacationvibes.ks@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 6l-10 7L2 6"/><path d="M2 6h20v12H2z"/></svg>
+            vacationvibes.ks@gmail.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section class="testimonials">
+  <div class="container">
+    <div class="section-head reveal" style="justify-content:center; text-align:center; flex-direction:column; align-items:center;">
+      <div class="eyebrow" style="justify-content:center;">Traveller Stories</div>
+      <h2 class="section-title" style="color:#fff; text-align:center;">Real journeys, real vibes.</h2>
+    </div>
+    <div class="testi-track" id="testiTrack">
+      <div class="testi-slide active">
+        <div class="testi-stars">★★★★★</div>
+        <p class="quote">"Our trip to Skardu felt effortless — every stay, every guide, every view was exactly as promised. Vacation Vibes made the north feel personal."</p>
+        <div class="who">— Traveller, Skardu Group Tour</div>
+      </div>
+      <div class="testi-slide">
+        <div class="testi-stars">★★★★★</div>
+        <p class="quote">"From the jeep tracks to the campfire nights, everything was arranged with so much care. It genuinely felt like travelling with friends who know the land."</p>
+        <div class="who">— Traveller, Hunza &amp; Naran Trip</div>
+      </div>
+      <div class="testi-slide">
+        <div class="testi-stars">★★★★★</div>
+        <p class="quote">"The photography session at Deosai alone was worth the whole trip. Professional, patient, and they know exactly where the light hits best."</p>
+        <div class="who">— Traveller, Deosai Photography Tour</div>
+      </div>
+    </div>
+    <div class="testi-dots" id="testiDots"></div>
+  </div>
+</section>
+
+<!-- ================= SOCIAL STRIP ================= -->
+<div class="social-strip">
+  <div class="container">
+    <div>
+      <h4>Follow the journey</h4>
+      <p>Behind-the-scenes moments and fresh trips, posted weekly.</p>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/vacationvibes_07" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+      </a>
+      <a href="https://www.tiktok.com/@vacatio.vibes20" target="_blank" rel="noopener" aria-label="TikTok">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 2h-3v13.2a2.8 2.8 0 11-2.8-2.8c.28 0 .55.03.8.1V9.4a6.4 6.4 0 00-.8-.05A6.35 6.35 0 1017 15.7V8.8a8.4 8.4 0 004.5 1.3V6.9A5.4 5.4 0 0116.5 2z"/></svg>
+      </a>
+      <a href="https://www.facebook.com/vacationVibes" target="_blank" rel="noopener" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3.5l.5-4h-4V7a1 1 0 011-1h2.5z"/></svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ================= CTA BANNER ================= -->
+<section class="cta-banner" id="contact">
+  <div class="container reveal">
+    <h2>Travel beyond limits — experience the real beauty of Gilgit-Baltistan.</h2>
+    <p>Tell us your dates and dreams — we'll take care of the rest.</p>
+    <div class="cta-actions">
+      <a class="btn btn-dark" href="https://wa.me/923397866881" target="_blank" rel="noopener">Message on WhatsApp</a>
+      <a class="btn btn-outline" href="mailto:vacationvibes.ks@gmail.com">Email Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="assets/img/logo.png" alt="Vacation Vibes logo">
+      <p>Turning your travel dreams into unforgettable adventures across the breathtaking valleys of Gilgit-Baltistan.</p>
+    </div>
+    <div>
+      <h5>Explore</h5>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Services</h5>
+      <ul>
+        <li><a href="#services">Hotel Stays</a></li>
+        <li><a href="#services">Tour Guidance</a></li>
+        <li><a href="#services">Camping</a></li>
+        <li><a href="#services">Photography</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Get in Touch</h5>
+      <div class="contact-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span>+92 339 7866881</span>
+      </div>
+      <div class="contact-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 6l-10 7L2 6"/><path d="M2 6h20v12H2z"/></svg>
+        <span>vacationvibes.ks@gmail.com</span>
+      </div>
+      <div class="contact-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Skardu, Gilgit-Baltistan, Pakistan</span>
+      </div>
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" name="email" id="newsletterEmail" placeholder="Your email address" required>
+        <button type="submit">Join</button>
+      </form>
+      <div class="newsletter-msg" id="newsletterMsg" aria-live="polite"></div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 Vacation Vibes. All rights reserved.</span>
+    <div class="legal-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms &amp; Conditions</a>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/923397866881" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32"><path d="M16.001 3C9.373 3 4 8.373 4 15c0 2.29.63 4.44 1.727 6.28L4 29l7.9-1.68A11.93 11.93 0 0016 27c6.627 0 12-5.373 12-12S22.628 3 16.001 3zm0 21.75c-1.87 0-3.62-.5-5.13-1.38l-.37-.22-4.7 1 1.02-4.58-.24-.38A9.71 9.71 0 016.25 15c0-5.38 4.37-9.75 9.75-9.75S25.75 9.62 25.75 15 21.38 24.75 16 24.75zm5.35-7.29c-.29-.15-1.72-.85-1.99-.95-.27-.1-.46-.15-.66.15-.2.29-.76.95-.93 1.14-.17.2-.34.22-.63.07-.29-.15-1.23-.45-2.34-1.44-.87-.77-1.45-1.73-1.62-2.02-.17-.29-.02-.45.13-.6.13-.13.29-.34.44-.51.15-.17.2-.29.29-.49.1-.2.05-.37-.02-.51-.07-.15-.66-1.58-.9-2.17-.24-.57-.48-.49-.66-.5h-.56c-.2 0-.51.07-.78.37-.27.29-1.02 1-1.02 2.44s1.05 2.83 1.19 3.03c.15.2 2.06 3.15 5 4.42.7.3 1.24.48 1.67.61.7.22 1.34.19 1.84.12.56-.08 1.72-.7 1.96-1.38.24-.68.24-1.26.17-1.38-.07-.13-.26-.2-.55-.35z"/></svg>
+</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
